@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="components/loader.css">
     <link rel="stylesheet" href="css/style.css">
     <script>
-        var appKey = “b0438e2044b97ab0be5c8daa7d9dc3f7792028e04504b7184164699342138772”;
-        var clientKey = “e9ff4a1786c260e71a5f978877a651be547c1dfb25e1364beba4da4671e71ade”;
+        
         var ncmb = new NCMB(appKey, clientKey);
         var TestClass = ncmb.DataStore("RegisterTest2");
         var testRecord = new TestClass();
         testRecord.set("message2", "hello, world");
         testRecord.save();
+        <script src="keys.js"></script>
     </script>
 </head>
 
